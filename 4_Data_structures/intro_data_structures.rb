@@ -25,3 +25,47 @@ my_hash = { "name" => "Eric",
 puts my_hash["name"]
 puts my_hash["age"]
 puts my_hash["hungry?"]
+
+pets = Hash.new
+pets["Diplodocus"] = "Migue"
+puts "Pets['Diplodocus'] =  #{pets["Diplodocus"]}"
+
+# looping through data structures...
+
+# looping through arrays & hashes...
+friends = ["Milhouse", "Ralph", "Nelson", "Otto"]
+
+family = { "Homer" => "dad",
+  "Marge" => "mom",
+  "Lisa" => "sister",
+  "Maggie" => "sister",
+  "Abe" => "grandpa",
+  "Santa's Little Helper" => "dog"
+}
+puts " LOOPING FRIENDS ...."
+friends.each { |x| puts "#{x}" }
+puts " LOOPING FAMILY ...."
+family.each { |x, y| puts "#{x}: #{y}" }
+
+puts "LOOPING PROGRAMMING LANGUAGES..."
+languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+languages.each { |element| puts element }
+
+# looping through multidimensional arrays...
+puts "LOOPING THROUGH 2D ARRAYS...."
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+s.each { |e| e.each { |x| puts x } }
+
+# looping through hashes...
+secret_identities = { "The Batman" => "Bruce Wayne",
+  "Superman" => "Clark Kent",
+  "Wonder Woman" => "Diana Prince",
+  "Freakazoid" => "Dexter Douglas"
+}
+ 
+puts "LOOPING THROUGH SUPER-HEROS" 
+secret_identities.each {
+    |hero_name, real_name|
+    puts "#{hero_name} is actually #{real_name}"
+}
