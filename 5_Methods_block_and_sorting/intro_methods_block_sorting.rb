@@ -74,6 +74,9 @@ capitalize("jane") # prints "Jane"
 # block that capitalizes each string in the array
 ["ryan", "jane"].each {|string| puts "#{string[0,1].upcase}#{string[1..-1]}"} # prints "Ryan", then "Jane"
 
+=begin
+	************* SORTING ****************
+=end
 # library sorting code
 books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
 books.sort!
