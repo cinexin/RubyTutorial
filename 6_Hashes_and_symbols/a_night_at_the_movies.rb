@@ -2,6 +2,10 @@
 # "A night at the movies" exercise
 # This is an improved version of the proposed exercise ;-)
 
+puts "*****************************************************"
+puts "************** A NIGHT AT THE MOVIES ****************"
+puts "*****************************************************"
+puts ""
 movies = {
 	Trainspotting: 5
 }
