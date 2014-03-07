@@ -8,6 +8,14 @@ You can see demo videos of the programs running on the console here:
 
  "A Night At The Movies" (Lesson 12 of CodeAcademy Ruby Course) - http://vimeo.com/88082692
 
+ "Micro-Virtual Machine in Ruby" (Lesson 17 of CodeAcademy Ruby Course) - https://vimeo.com/88267837
+
+ "Bank Of Rubies" (Lesson 19 of CodeAcademy Ruby Course) - https://vimeo.com/88365962
+
+
+
+
+
 
 
 Hope it's helpful

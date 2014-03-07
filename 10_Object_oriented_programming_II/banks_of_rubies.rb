@@ -51,7 +51,7 @@ class Account
 	def deposit(pin_number, amount)
 
 		if (pin_number == pin)
-			@balance+=amount
+			@balance+=amount.to_i
 			puts "Added #{amount} rubies to your account. New balance #{balance} rubies."
 		else
 			puts pin_error
